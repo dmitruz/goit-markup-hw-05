@@ -760,6 +760,17 @@ text-decoration: none;
 transform: translateY(0%);
 }
 
+.team-list-link-wraper {
+   display: block;
+}
+/*   !!! При таком коде вроди должен работать оверлей, но не 
+работает.
+
+.team-list-link-wraper:hover .overlay,
+.team-list-link-wraper:focus .overlay {
+   transform: translateY(0%);
+}*/
+
 .team-list-img-wraper {
    position: relative;
    overflow: hidden;
