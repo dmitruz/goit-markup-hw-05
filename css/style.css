@@ -381,7 +381,7 @@ text-decoration: none;
 .item {
    position: relative;
 }
-.service-block {
+/*.service-block {
    position: absolute;
     width: 370px;
     height: 70px;
@@ -390,8 +390,15 @@ text-decoration: none;
     bottom: 0;
     text-align: center;
     padding-top: 27px;
-}
+}*/
 .service-text {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
    font-family: Roboto;
    font-style: normal;
    font-weight: 700;
@@ -400,6 +407,7 @@ text-decoration: none;
    text-align: center;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   background-color: rgba(47, 48, 58, 0.8);
    color: #fff;
 }
 /*our team*/
