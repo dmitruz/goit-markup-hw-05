@@ -795,7 +795,12 @@ transform: translateY(0%);
    left: 0;
    width: 100vw;
    height: 100vh;
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.2);
+   visibility: visible;
+   opacity: 1;
+   pointer-evEnts: auto;
+   transition: visibility 250ms;
+   opacity: 250ms;
 }
 
 .modal {
