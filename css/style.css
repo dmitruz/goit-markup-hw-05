@@ -820,6 +820,6 @@ text-decoration: none;
 }
 .is-hidden {
    opacity: 0;
-   visibility: hiden;
+   visibility: hidden;
    pointer-events: none;
 }
