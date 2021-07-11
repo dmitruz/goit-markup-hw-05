@@ -381,16 +381,7 @@ text-decoration: none;
 .item {
    position: relative;
 }
-/*.service-block {
-   position: absolute;
-    width: 370px;
-    height: 70px;
-    background-color: rgba(47, 48, 58, 0.8);
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    padding-top: 27px;
-}*/
+
 .service-text {
    position: absolute;
    bottom: 0;
@@ -420,6 +411,8 @@ text-decoration: none;
 
 .our-team-box {
    padding: 30px 32px;
+  padding-left: 15px;
+  padding-right: 15px;
    box-sizing: border-box;
 }
 .logo-set {
@@ -456,9 +449,7 @@ text-decoration: none;
 }
 
 .our-team-item {
-    border-left: 1px solid #ececec;
-   border-right: 1px solid #ececec;
-   border-bottom: 1px solid #ececec;
+   
    padding-right: 0;
 }
 .our-team-item  {
@@ -763,21 +754,15 @@ text-decoration: none;
    transition:  transform 250ms linear;
 }
 
-.flex-item:hover .overlay,
-.flex-item:focus .overlay {
-transform: translateY(0%);
-}
+.flex-item:hover .overlay {
+   transform: translateY(0%);
+ }
+
 
 .team-list-link-wraper {
    display: block;
 }
-/*   !!! При таком коде вроди должен работать оверлей, но не 
-работает.
 
-.team-list-link-wraper:hover .overlay,
-.team-list-link-wraper:focus .overlay {
-   transform: translateY(0%);
-}*/
 
 .team-list-img-wraper {
    position: relative;
@@ -791,7 +776,8 @@ transform: translateY(0%);
     margin-top: 0;
     margin-bottom: 0;
     padding-left:0;
-   }
+ }
+
 .close {
    background-color: #fff;
    fill: #212121;
